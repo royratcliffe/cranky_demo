@@ -175,6 +175,15 @@
                         <kv k="lbl" t="s"/>
                     </kv>
                 </kv>
+                <kv k="va_l" t="l">
+                    <kv k="va" t="l">
+                        <kv k="n" t="s">image</kv>
+                        <kv k="v" t="l">
+                            <kv k="dv_p" t="s">str</kv>
+                            <kv k="dv_v" t="s"/>
+                        </kv>
+                    </kv>
+                </kv>
             </kv>
         </kv>
         <kv k="ani_b_l" t="l"/>
