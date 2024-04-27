@@ -15,7 +15,143 @@
                 <kv k="w" t="i">640</kv>
                 <kv k="h" t="i">480</kv>
                 <kv k="l" t="b">0</kv>
-                <kv k="ctrl_l" t="l"/>
+                <kv k="ctrl_l" t="l">
+                    <kv k="ctrl" t="l">
+                        <kv k="n" t="s">Control</kv>
+                        <kv k="x" t="i">0</kv>
+                        <kv k="y" t="i">0</kv>
+                        <kv k="w" t="i">640</kv>
+                        <kv k="h" t="i">480</kv>
+                        <kv k="fi" t="i">0</kv>
+                        <kv k="active" t="b">1</kv>
+                        <kv k="opaque" t="b">1</kv>
+                        <kv k="visible" t="b">1</kv>
+                        <kv k="enable_mask" t="b">0</kv>
+                        <kv k="l" t="b">0</kv>
+                        <kv k="lbl" t="s"/>
+                        <kv k="rext_l" t="l">
+                            <kv k="rext" t="l">
+                                <kv k="arg_l" t="l">
+                                    <kv k="arg" t="l">
+                                        <kv k="n" t="s">re.CenterY</kv>
+                                        <kv k="v" t="l">
+                                            <kv k="dv_p" t="s">dbl</kv>
+                                            <kv k="dv_v" t="d">0.0</kv>
+                                        </kv>
+                                    </kv>
+                                    <kv k="arg" t="l">
+                                        <kv k="n" t="s">re.CenterX</kv>
+                                        <kv k="v" t="l">
+                                            <kv k="dv_p" t="s">dbl</kv>
+                                            <kv k="dv_v" t="d">0.0</kv>
+                                        </kv>
+                                    </kv>
+                                    <kv k="arg" t="l">
+                                        <kv k="n" t="s">re.Alpha</kv>
+                                        <kv k="v" t="l">
+                                            <kv k="dv_p" t="s">int.alpha</kv>
+                                            <kv k="dv_v" t="i">255</kv>
+                                        </kv>
+                                    </kv>
+                                    <kv k="arg" t="l">
+                                        <kv k="n" t="s">re.Location.y</kv>
+                                        <kv k="v" t="l">
+                                            <kv k="dv_p" t="s">int</kv>
+                                            <kv k="dv_v" t="i">0</kv>
+                                        </kv>
+                                    </kv>
+                                    <kv k="arg" t="l">
+                                        <kv k="n" t="s">re.Location.x</kv>
+                                        <kv k="v" t="l">
+                                            <kv k="dv_p" t="s">int</kv>
+                                            <kv k="dv_v" t="i">0</kv>
+                                        </kv>
+                                    </kv>
+                                    <kv k="arg" t="l">
+                                        <kv k="n" t="s">re.Tile</kv>
+                                        <kv k="v" t="l">
+                                            <kv k="dv_p" t="s">bool.tile</kv>
+                                            <kv k="dv_v" t="b">0</kv>
+                                        </kv>
+                                    </kv>
+                                    <kv k="arg" t="l">
+                                        <kv k="n" t="s">re.Size.h</kv>
+                                        <kv k="v" t="l">
+                                            <kv k="dv_p" t="s">int.size</kv>
+                                            <kv k="dv_v" t="i">-1</kv>
+                                        </kv>
+                                    </kv>
+                                    <kv k="arg" t="l">
+                                        <kv k="n" t="s">re.Rotation</kv>
+                                        <kv k="v" t="l">
+                                            <kv k="dv_p" t="s">dbl</kv>
+                                            <kv k="dv_v" t="d">0.0</kv>
+                                        </kv>
+                                    </kv>
+                                    <kv k="arg" t="l">
+                                        <kv k="n" t="s">re.Name</kv>
+                                        <kv k="v" t="l">
+                                            <kv k="dv_p" t="s">img</kv>
+                                            <kv k="dv_v" t="s"/>
+                                        </kv>
+                                    </kv>
+                                    <kv k="arg" t="l">
+                                        <kv k="n" t="s">re.Vertical Align</kv>
+                                        <kv k="v" t="l">
+                                            <kv k="dv_p" t="s">valign</kv>
+                                            <kv k="dv_v" t="s">Top</kv>
+                                        </kv>
+                                    </kv>
+                                    <kv k="arg" t="l">
+                                        <kv k="n" t="s">re.Aspect</kv>
+                                        <kv k="v" t="l">
+                                            <kv k="dv_p" t="s">bool.aspect</kv>
+                                            <kv k="dv_v" t="b">0</kv>
+                                        </kv>
+                                    </kv>
+                                    <kv k="arg" t="l">
+                                        <kv k="n" t="s">re.Horizontal Align</kv>
+                                        <kv k="v" t="l">
+                                            <kv k="dv_p" t="s">halign</kv>
+                                            <kv k="dv_v" t="s">Left</kv>
+                                        </kv>
+                                    </kv>
+                                    <kv k="arg" t="l">
+                                        <kv k="n" t="s">re.Size.w</kv>
+                                        <kv k="v" t="l">
+                                            <kv k="dv_p" t="s">int.size</kv>
+                                            <kv k="dv_v" t="i">-1</kv>
+                                        </kv>
+                                    </kv>
+                                    <kv k="arg" t="l">
+                                        <kv k="n" t="s">re.Scale</kv>
+                                        <kv k="v" t="l">
+                                            <kv k="dv_p" t="s">bool.scale</kv>
+                                            <kv k="dv_v" t="b">0</kv>
+                                        </kv>
+                                    </kv>
+                                    <kv k="arg" t="l">
+                                        <kv k="n" t="s">re.RotateCenter</kv>
+                                        <kv k="v" t="l">
+                                            <kv k="dv_p" t="s">bool</kv>
+                                            <kv k="dv_v" t="b">1</kv>
+                                        </kv>
+                                    </kv>
+                                    <kv k="arg" t="l">
+                                        <kv k="n" t="s">re.LoadScaled</kv>
+                                        <kv k="v" t="l">
+                                            <kv k="dv_p" t="s">bool.load_scaled</kv>
+                                            <kv k="dv_v" t="b">0</kv>
+                                        </kv>
+                                    </kv>
+                                </kv>
+                                <kv k="l" t="b">0</kv>
+                                <kv k="n" t="s">Image</kv>
+                                <kv k="rext_id" t="s">Image</kv>
+                            </kv>
+                        </kv>
+                    </kv>
+                </kv>
             </kv>
         </kv>
         <kv k="screen_l" t="l">
