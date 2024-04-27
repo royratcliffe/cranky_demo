@@ -91,8 +91,11 @@
                                     <kv k="arg" t="l">
                                         <kv k="n" t="s">re.Name</kv>
                                         <kv k="v" t="l">
-                                            <kv k="dv_p" t="s">img</kv>
-                                            <kv k="dv_v" t="s"/>
+                                            <kv k="dv_p" t="l">
+                                                <kv k="dv_p" t="s">img</kv>
+                                                <kv k="dv_v" t="s"/>
+                                            </kv>
+                                            <kv k="dv_v" t="v">${screen:image}</kv>
                                         </kv>
                                     </kv>
                                     <kv k="arg" t="l">
