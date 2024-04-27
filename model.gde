@@ -221,6 +221,20 @@
                     </kv>
                 </kv>
             </kv>
+            <kv k="act" t="l">
+                <kv k="act_id" t="s">Lua</kv>
+                <kv k="act_trig" t="s">gre.keydown</kv>
+                <kv k="l" t="b">0</kv>
+                <kv k="arg_l" t="l">
+                    <kv k="arg" t="l">
+                        <kv k="n" t="s">script</kv>
+                        <kv k="v" t="l">
+                            <kv k="dv_p" t="s">lua</kv>
+                            <kv k="dv_v" t="s">key_down_cb</kv>
+                        </kv>
+                    </kv>
+                </kv>
+            </kv>
         </kv>
     </kv>
 </root>
