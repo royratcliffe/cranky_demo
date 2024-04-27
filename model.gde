@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root k="root" t="l">
+    <kv k="version" t="i">1</kv>
+    <kv k="app" t="l">
+        <kv k="n" t="s">cranky_demo</kv>
+        <kv k="dimensions" t="l">
+            <kv k="w" t="i">640</kv>
+            <kv k="h" t="i">480</kv>
+            <kv k="color_depth" t="s">ARGB8888</kv>
+        </kv>
+        <kv k="l" t="b">0</kv>
+        <kv k="layer_l" t="l">
+            <kv k="layer" t="l">
+                <kv k="n" t="s">Layer</kv>
+                <kv k="w" t="i">640</kv>
+                <kv k="h" t="i">480</kv>
+                <kv k="l" t="b">0</kv>
+                <kv k="ctrl_l" t="l"/>
+            </kv>
+        </kv>
+        <kv k="screen_l" t="l">
+            <kv k="screen" t="l">
+                <kv k="n" t="s">Screen</kv>
+                <kv k="start" t="b">1</kv>
+                <kv k="l" t="b">0</kv>
+                <kv k="lbl" t="s"/>
+                <kv k="layer_l" t="l">
+                    <kv k="layer_instance" t="l">
+                        <kv k="n" t="s">Layer</kv>
+                        <kv k="x" t="i">0</kv>
+                        <kv k="y" t="i">0</kv>
+                        <kv k="alpha" t="i">255</kv>
+                        <kv k="visible" t="b">1</kv>
+                        <kv k="opaque" t="b">0</kv>
+                        <kv k="scroll" t="b">0</kv>
+                        <kv k="xoffset" t="i">0</kv>
+                        <kv k="yoffset" t="i">0</kv>
+                        <kv k="l" t="b">0</kv>
+                        <kv k="lbl" t="s"/>
+                    </kv>
+                </kv>
+            </kv>
+        </kv>
+        <kv k="ani_b_l" t="l"/>
+    </kv>
+</root>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buildpath>
+	<buildpathentry excluding="scripts/|tests/scripts/" kind="src" path=""/>
+	<buildpathentry kind="src" path="scripts"/>
+	<buildpathentry kind="src" path="tests/scripts"/>
+	<buildpathentry external="true" kind="lib" path="/Program Files/Crank_Software/Storyboard_Designer/plugins/com.crank.gdt.lua_8.1.0.202402081836/resources/lua/api.zip"/>
+</buildpath>
