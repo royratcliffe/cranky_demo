@@ -1,4 +1,5 @@
 screens = {
+  -- https://www.jimblimey.com/blog/attack-of-the-clones-space-invaders/
   screen1 = {
     image = "images/spaceinvaders1.png",
     right = "screen2"
