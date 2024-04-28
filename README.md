@@ -1,5 +1,7 @@
 # Cranky Demo
 
+Also available as a [blog post](https://roy.ratcliffe.me/2024/04/28/cranky/).
+
 Suppose that your organisation wants to demonstrate a Crank application early in its development when functional components do not exist---a mock-up user interface. This is not an unusual requirement. Quite normal in fact.
 
 The ideal UI prototyping work prefers a collection of screen images taken from Photoshop or even snapshots taken directly from the screen. Speed and flexibility are the main goals. Human interface experts want to expose elements of the interface to potential customers in a somewhat realistic fashion. The demonstration platform therefore only needs the interface to look like the real thing, not operate as such. No requirements for fancy animations, screen transitions, virtual keyboards, focus changes or any such advanced features of the interface exist. Nor do any functional requirements exist.
