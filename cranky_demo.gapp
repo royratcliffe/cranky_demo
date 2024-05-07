@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <gapp designer="8.1.0.202402081836" name="cranky_demo" version="3.0">
     <dimension format="ARGB8888" height="480" width="640"/>
+    <data format="1s0" key="battery_image" value=""/>
+    <data format="1s0" key="battery_image1" value=""/>
+    <data format="1s0" key="battery_image2" value=""/>
+    <data format="1s0" key="battery_image3" value=""/>
+    <data format="1s0" key="battery_image4" value=""/>
     <action input_event="gre.init" type="gra.lua">
         <arg k="script">init_cb</arg>
     </action>
@@ -21,35 +26,35 @@
             <control active="1" enable_mask="0" height="52" hidden="0" name="Control" opaque="1" width="96" x="0" y="0">
                 <render handler="image">
                     <arg k="halign">1</arg>
-                    <arg k="name">images/25_battery_icon.png</arg>
+                    <arg k="name">${app:battery_image}</arg>
                     <arg k="valign">1</arg>
                 </render>
             </control>
             <control active="1" enable_mask="0" height="36" hidden="0" name="Control1" opaque="1" width="16" x="8" y="8">
                 <render handler="image">
                     <arg k="halign">1</arg>
-                    <arg k="name">images/25_battery_icon1.png</arg>
+                    <arg k="name">${app:battery_image1}</arg>
                     <arg k="valign">1</arg>
                 </render>
             </control>
             <control active="1" enable_mask="0" height="36" hidden="0" name="Control2" opaque="1" width="16" x="27" y="8">
                 <render handler="image">
                     <arg k="halign">1</arg>
-                    <arg k="name">images/25_battery_icon1.png</arg>
+                    <arg k="name">${app:battery_image2}</arg>
                     <arg k="valign">1</arg>
                 </render>
             </control>
             <control active="1" enable_mask="0" height="36" hidden="0" name="Control3" opaque="1" width="16" x="46" y="8">
                 <render handler="image">
                     <arg k="halign">1</arg>
-                    <arg k="name">images/25_battery_icon1.png</arg>
+                    <arg k="name">${app:battery_image3}</arg>
                     <arg k="valign">1</arg>
                 </render>
             </control>
             <control active="1" enable_mask="0" height="36" hidden="0" name="Control4" opaque="1" width="16" x="65" y="8">
                 <render handler="image">
                     <arg k="halign">1</arg>
-                    <arg k="name">images/25_battery_icon1.png</arg>
+                    <arg k="name">${app:battery_image4}</arg>
                     <arg k="valign">1</arg>
                 </render>
             </control>
