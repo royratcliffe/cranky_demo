@@ -1,1 +1,68 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><gapp designer="8.1.0.202402081836" name="cranky_demo" version="3.0"><dimension format="ARGB8888" height="480" width="640"/><action input_event="gre.init" type="gra.lua"><arg k="script">init_cb</arg></action><action input_event="gre.keydown" type="gra.lua"><arg k="script">key_down_cb</arg></action><layers><layer height="480" name="Layer" width="640"><control active="1" enable_mask="0" height="480" hidden="0" name="Control" opaque="1" width="640" x="0" y="0"><render handler="image"><arg k="halign">1</arg><arg k="name">${screen:image}</arg><arg k="valign">1</arg></render></control></layer></layers><screens><screen default="1" name="Screen"><data format="1s0" key="image" value=""/><action input_event="gre.screenshow.pre" type="gra.lua"><arg k="script">pre_show_screen_cb</arg></action><instance alpha="255" hidden="0" index="0" layer="Layer" opaque="0" x="0" y="0"/></screen></screens></gapp>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<gapp designer="8.1.0.202402081836" name="cranky_demo" version="3.0">
+    <dimension format="ARGB8888" height="480" width="640"/>
+    <action input_event="gre.init" type="gra.lua">
+        <arg k="script">init_cb</arg>
+    </action>
+    <action input_event="gre.keydown" type="gra.lua">
+        <arg k="script">key_down_cb</arg>
+    </action>
+    <layers>
+        <layer height="480" name="Layer" width="640">
+            <control active="1" enable_mask="0" height="480" hidden="0" name="Control" opaque="1" width="640" x="0" y="0">
+                <render handler="image">
+                    <arg k="halign">1</arg>
+                    <arg k="name">${screen:image}</arg>
+                    <arg k="valign">1</arg>
+                </render>
+            </control>
+        </layer>
+        <layer height="52" name="Layer1" width="96">
+            <control active="1" enable_mask="0" height="52" hidden="0" name="Control" opaque="1" width="96" x="0" y="0">
+                <render handler="image">
+                    <arg k="halign">1</arg>
+                    <arg k="name">images/25_battery_icon.png</arg>
+                    <arg k="valign">1</arg>
+                </render>
+            </control>
+            <control active="1" enable_mask="0" height="36" hidden="0" name="Control1" opaque="1" width="16" x="8" y="8">
+                <render handler="image">
+                    <arg k="halign">1</arg>
+                    <arg k="name">images/25_battery_icon1.png</arg>
+                    <arg k="valign">1</arg>
+                </render>
+            </control>
+            <control active="1" enable_mask="0" height="36" hidden="0" name="Control2" opaque="1" width="16" x="27" y="8">
+                <render handler="image">
+                    <arg k="halign">1</arg>
+                    <arg k="name">images/25_battery_icon1.png</arg>
+                    <arg k="valign">1</arg>
+                </render>
+            </control>
+            <control active="1" enable_mask="0" height="36" hidden="0" name="Control3" opaque="1" width="16" x="46" y="8">
+                <render handler="image">
+                    <arg k="halign">1</arg>
+                    <arg k="name">images/25_battery_icon1.png</arg>
+                    <arg k="valign">1</arg>
+                </render>
+            </control>
+            <control active="1" enable_mask="0" height="36" hidden="0" name="Control4" opaque="1" width="16" x="65" y="8">
+                <render handler="image">
+                    <arg k="halign">1</arg>
+                    <arg k="name">images/25_battery_icon1.png</arg>
+                    <arg k="valign">1</arg>
+                </render>
+            </control>
+        </layer>
+    </layers>
+    <screens>
+        <screen default="1" name="Screen">
+            <data format="1s0" key="image" value=""/>
+            <action input_event="gre.screenshow.pre" type="gra.lua">
+                <arg k="script">pre_show_screen_cb</arg>
+            </action>
+            <instance alpha="255" hidden="0" index="0" layer="Layer" opaque="0" x="0" y="0"/>
+            <instance alpha="255" hidden="0" index="1" layer="Layer1" opaque="0" x="544" y="0"/>
+        </screen>
+    </screens>
+</gapp>
