@@ -6,7 +6,11 @@ env = {}
 function env:set_screen(screen)
   if screen then
     self.screen = screen
-    gre.set_value("Screen.image", self.screens[screen].image)
+    local sub_env = self.screens[screen]
+    gre.set_value("Screen.image", sub_env.image)
+    if sub_env.battery ~= nil then
+      show_battery_icon(sub_env.battery)
+    end
   end
 end
 
